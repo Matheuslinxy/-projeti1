@@ -164,6 +164,19 @@ import java.util.Scanner;
             if (resposta13.equalsIgnoreCase("a")) {
                 score++;
             }
+
+              System.out.println("Pergunta 14: qual a fruta da invisibilidade ?");
+            System.out.println("a) Magu Magu no MI");
+            System.out.println("b) Hito Hito no MI");
+            System.out.println("c) Pika Pika no MI");
+            System.out.println("d) Suke Suke no Mi");
+            System.out.print("Sua resposta: ");
+            String resposta14 = scanner.nextLine();
+
+            if (resposta14.equalsIgnoreCase("d")) {
+                score++;
+            }
+            
             // Resultado final
             System.out.println("Você acertou " + score + " de 10 perguntas.");
         }
