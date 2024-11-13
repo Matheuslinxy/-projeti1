@@ -140,6 +140,30 @@ import java.util.Scanner;
             if (resposta11.equalsIgnoreCase("a")) {
                 score++;
             }
+
+            System.out.println("Pergunta 12: Quais sao os menbros da tripulaçao do barba negra ?");
+            System.out.println("a) Benn");
+            System.out.println("b) Beckman");
+            System.out.println("c) Sanjuan");
+            System.out.println("d) Yasopp");
+            System.out.print("Sua resposta: ");
+            String resposta12 = scanner.nextLine();
+
+            if (resposta12.equalsIgnoreCase("c")) {
+                score++;
+            }
+
+            System.out.println("Pergunta 13: quem e um dos shichibukai?");
+            System.out.println("a) Dracula Mihawk");
+            System.out.println("b) Beckman");
+            System.out.println("c) LuckyRoux");
+            System.out.println("d) Yasopp");
+            System.out.print("Sua resposta: ");
+            String resposta13 = scanner.nextLine();
+
+            if (resposta13.equalsIgnoreCase("a")) {
+                score++;
+            }
             // Resultado final
             System.out.println("Você acertou " + score + " de 10 perguntas.");
         }
