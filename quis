@@ -128,6 +128,18 @@ import java.util.Scanner;
             if (resposta10.equalsIgnoreCase("d")) {
                 score++;
             }
+
+             System.out.println("Pergunta 11: Em que episodio Gecko moria e derrotado?");
+            System.out.println("a) 369");
+            System.out.println("b) 366");
+            System.out.println("c) 280");
+            System.out.println("d) 600");
+            System.out.print("Sua resposta: ");
+            String resposta11 = scanner.nextLine();
+
+            if (resposta11.equalsIgnoreCase("a")) {
+                score++;
+            }
             // Resultado final
             System.out.println("Você acertou " + score + " de 10 perguntas.");
         }
