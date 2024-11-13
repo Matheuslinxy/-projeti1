@@ -1,10 +1,12 @@
 import java.util.Scanner;
 
-    public class projeti1 {
+    public class quis {
 
-        public static void main(String[] args) {
+          public static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);
             int score = 0;
+            int total = 15;
+            int erradas = 0;
 
             System.out.println("Bem-vindo ao Quiz sobre one pice!");
 
