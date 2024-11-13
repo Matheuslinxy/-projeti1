@@ -176,8 +176,31 @@ import java.util.Scanner;
             if (resposta14.equalsIgnoreCase("d")) {
                 score++;
             }
-            
+
+            [20:09, 11/11/2024] Matheus Souza: System.out.println("Pergunta 15: quem ficou com a fruta do barba branca  ?");
+            System.out.println("a) Dracula Mihawk");
+            System.out.println("b) Maeshall D Teach");
+            System.out.println("c) kaido");
+            System.out.println("d) Beckman");
+            System.out.print("Sua resposta: ");
+            String resposta15 = scanner.nextLine();
+
+            if (resposta15.equalsIgnoreCase("b")) {
+                score++;
+            }
             // Resultado final
-            System.out.println("Você acertou " + score + " de 10 perguntas.");
+            System.out.println("Você acertou " + score + " de 15 perguntas.");
+            erradas = total - score;
+
+            // Calcular as porcentagens
+            double percentageCorrect = (score * 100.0) / total;
+            double percentageIncorrect = (erradas * 100.0) / total;
+
+            // Exibir o resultado em porcentagem
+            System.out.println("Você acertou " + score + " de 15 perguntas.");
+            System.out.println("Porcentagem de acertos: " + percentageCorrect + "%");
+            System.out.println("Porcentagem de erros: " + percentageIncorrect + "%" );
         }
     }
+
+           
