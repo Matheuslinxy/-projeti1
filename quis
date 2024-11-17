@@ -130,17 +130,7 @@ class Questao {
 }
 
 
-            System.out.println("Pergunta 3: qual o nome da tera natal do Ace?");
-            System.out.println("a) South Blue");
-            System.out.println("b) North Blue");
-            System.out.println("c) East Blue");
-            System.out.println("d) vila Syrup");
-            System.out.print("Sua resposta: ");
-            String resposta3 = scanner.nextLine();
-
-            if (resposta3.equalsIgnoreCase("a")) {
-                score++;
-            }
+            
 
             System.out.println("Pergunta 4: qual deses presonagen faz parte do one pice?");
             System.out.println("a) Mestre came ");
