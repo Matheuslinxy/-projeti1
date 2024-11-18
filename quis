@@ -9,17 +9,12 @@ public class projeto {
         int score = 0;
         int total = 15;
 
-        // Cabeçalho e Boas-Vindas
-        System.out.println("Faculdade: [Nome da Faculdade]");
-        System.out.println("Aluno: [Seu Nome Completo]");
-        System.out.println("Professor: [Nome do Professor]");
         System.out.println("Bem-vindo ao Quiz sobre One Piece!");
         System.out.println("Responda 15 perguntas sobre o tema.");
 
-        // Criação das perguntas
+        
         List<Questao> questoes = criarQuestoes();
 
-        // Execução do Quiz
         for (Questao questao : questoes) {
             System.out.println(questao.pergunta);
             System.out.println(questao.opcaoA);
@@ -35,7 +30,7 @@ public class projeto {
             }
         }
 
-        // Resultados finais
+        
         int erradas = total - score;
         double percentageCorrect = (score * 100.0) / total;
         double percentageIncorrect = (erradas * 100.0) / total;
